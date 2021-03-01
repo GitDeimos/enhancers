@@ -1,0 +1,26 @@
+{
+  "name": "Enhancers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.21.1",
+    "express": "^4.17.1",
+    "hbs": "4.1.1",
+    "request": "2.88.2",
+    "yelp-fusion": "3.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.17",
+    "@babel/node": "7.12.17",
+    "@babel/preset-env": "7.12.17",
+    "nodemon": "2.0.7"
+  }
+}

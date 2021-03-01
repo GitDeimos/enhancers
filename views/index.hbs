@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css"/> 
+    </head>
+    <body>
+        <section class="search-section">
+            <div class="container">
+                <h1 class="heading"> {{>header}} </h1>
+                <form class="weatherLocation">
+                    <input placeholder="Insert city here" type="text" name="city"/>
+                    <input type="submit" value="Search" />
+                    <span class="msg"></span>
+                </form>
+            </div>
+        </section>
+        <section class="cards-section">
+                  <div class="container">
+                    <ul class="cities"></ul>
+                </div>
+        </section>
+        <section class="shops-section">
+            <div class="container">
+        </div>
+        </section>
+        <script src="js/uiLogic.js"></script>
+    </body>
+</html>
